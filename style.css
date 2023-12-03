@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    color: #e5e7eb;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+.header-left,
+.hero h1 {
+    color: white;
+}
+
+.header-right,
+.hero p {
+    color: #e5e7eb;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 200px;
+}
+
+.placeholder {
+    background-color: #e5e7eb;
+    height: 200px;
+    width: 400px;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.card-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 160px;
+    text-align: center;
+    margin: 20px;
+}
+
+.square {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 20px;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 300px;
+}
+
+.testimonial p {
+    font-weight: bold;
+    color: #1F2937
+}
+
+.testimonial em {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+
+.call-to-action {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.call-to-action .signup-container {
+    background-color: #3882f6;
+    width: 70%;
+    height: 100px;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
