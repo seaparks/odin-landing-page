@@ -131,7 +131,7 @@ button {
     flex-direction: column;
     justify-content: center;
     background-color: #E5E7EB;
-    padding: 7em 13em;
+    padding: 112px 208px;
 }
 
 .quote em {
@@ -144,4 +144,31 @@ button {
     font-weight: bolder;
     font-size: 24px;
     color: #1f2937
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 112px 208px;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 100%;
+    border-radius: 8px;
+    padding: 48px;
+    color: white;
+}
+
+.blue-box button {
+    border: 2px solid white;
+    color: white;
+}
+
+.blue-box strong {
+    font-size: 24px;
 }
