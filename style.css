@@ -85,6 +85,7 @@ button {
 
 .hero button {
     border: none;
+    color: white;
 }
 
 .information {
@@ -123,4 +124,24 @@ button {
     border-radius: 20px;
     width: 160px;
     height: 160px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 7em 13em;
+}
+
+.quote em {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote p {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1f2937
 }
